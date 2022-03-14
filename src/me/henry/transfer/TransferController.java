@@ -4,7 +4,7 @@ import java.io.File;
 
 public class TransferController {
     public static void main(String[] args) {
-        if(!(args.length == 3 && args[0].equalsIgnoreCase("send")) || !(args.length == 2 && args[0].equalsIgnoreCase("receive"))) {
+        if(!(args.length == 3 || args.length == 2)) {
             System.out.println("Incorrect program arguments.");
             System.exit(5);
         }
