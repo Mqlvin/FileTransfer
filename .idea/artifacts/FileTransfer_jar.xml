@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="FileTransfer:jar">
+    <output-path>$PROJECT_DIR$/FileTransfer_jar</output-path>
+    <root id="root">
+      <element id="archive" name="FileTransfer.jar">
+        <element id="module-output" name="FileTransfer" />
+      </element>
+    </root>
+  </artifact>
+</component>
